@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/KAT-FG2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KAT-FG3.py" afterDir="false" />
+    <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="Kata 2 and 3">
+      <change afterPath="$PROJECT_DIR$/KAT-FG4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KAT-FG2.py" beforeDir="false" afterPath="$PROJECT_DIR$/KAT-FG2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -47,10 +52,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Interview taks.executor": "Run",
     "Python.KAT-FG2.executor": "Run",
     "Python.KAT-FG3.executor": "Run",
+    "Python.KAT-FG4.executor": "Run",
+    "Python.string task.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "KAT-FG2plus3"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -77,12 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1733261637097</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Kata 2 and 3">
+      <option name="closed" value="true" />
+      <created>1733576936846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733576936846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Kata 2 and 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kata 2 and 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
