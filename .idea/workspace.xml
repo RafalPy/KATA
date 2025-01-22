@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="tests for not counting spaces, tab and new line character added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KAT-FG2.py" beforeDir="false" afterPath="$PROJECT_DIR$/KAT-FG2.py" afterDir="false" />
+    <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="function to count only alphabetic added (and those starting or ending with not alphabetic)">
       <change beforePath="$PROJECT_DIR$/word_counter/kata_word_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_counter/kata_word_counter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736706870865</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="function to count only alphabetic added (and those starting or ending with not alphabetic)">
+      <option name="closed" value="true" />
+      <created>1737575958621</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737575958621</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -182,7 +188,8 @@
     <MESSAGE value="unit tests for kata_words_counter1 replacing initial print statements" />
     <MESSAGE value="functionality to not count spaces and tabs added" />
     <MESSAGE value="tests for not counting spaces, tab and new line character added" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests for not counting spaces, tab and new line character added" />
+    <MESSAGE value="function to count only alphabetic added (and those starting or ending with not alphabetic)" />
+    <option name="LAST_COMMIT_MESSAGE" value="function to count only alphabetic added (and those starting or ending with not alphabetic)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

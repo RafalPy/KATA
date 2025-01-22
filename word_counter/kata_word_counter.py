@@ -50,7 +50,7 @@ def count_words_alphabetic(sentence, delimiter, count_only_alphabetic=True):
             counter_1 += 1
     return counter_1
 
-print(count_words_alphanumeric("1test;te1t;test;te3t", ";"))
+print(count_words_alphabetic("1test;te1t;test;te3t", ";"))
 
 
 
