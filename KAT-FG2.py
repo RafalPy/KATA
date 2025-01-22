@@ -32,4 +32,4 @@ def run_many_times(x):
         fib.generate()
         counter +=1
 
-run_many_times(14)
+run_many_times(10)
