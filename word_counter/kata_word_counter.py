@@ -1,18 +1,10 @@
 
 def count_words(sentence, delimiter):
-    my_list = sentence.split(delimiter)
-    counter_1 = 0
-    for i in range(len(my_list)):
-        counter_2 = 0
-        for character in my_list[i]:
-            if character.isspace():
-                counter_2 += 1
-            if len(my_list[i]) == counter_2 & counter_2 !=0:
-                counter_1 -=1
-        if len(my_list[i]) != 0:
-            counter_1 +=1
-
-    return counter_1
+    # Creates a list split by delimiter and replaces spaces and \n with nothing
+    my_list = list(map(lambda x: x.replace(" ", '').replace("\n",''), sentence.split(delimiter))) #creates a list split by delimiter and replaces spaces and \n with nothing
+    # removes empty elements from the list
+    my_list[:] = [item for item in my_list if item != '']
+    return len(my_list[:])
 
 #function counts only alphabetic words but also those ending or starting with not an alphabetic character
 def count_words_alphabetic(sentence, delimiter, count_only_alphabetic=True):
@@ -50,7 +42,6 @@ def count_words_alphabetic(sentence, delimiter, count_only_alphabetic=True):
             counter_1 += 1
     return counter_1
 
-print(count_words_alphabetic("1test;te1t;test;te3t", ";"))
 
 
 

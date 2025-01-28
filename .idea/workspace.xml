@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="function to count only alphabetic added (and those starting or ending with not alphabetic)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/word_counter/kata_word_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_counter/kata_word_counter.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_count_words.TestCountWords.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_what_to_do.TestWhatToDo.test_days_untildeadline_less_than_2.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_count_words.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.Interview taks.executor&quot;: &quot;Run&quot;,
@@ -78,6 +80,28 @@
       <recent name="C:\Users\PC\PycharmProjects\pythonProject9" />
       <recent name="C:\Users\PC\PycharmProjects\pythonProject9\word_counter" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Python tests for test_count_words.TestCountWords" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject9" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/word_counter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_count_words.TestCountWords&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_count_words.TestCountWords" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -175,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737575958621</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="function to count only alphabetic added (and those starting or ending with not alphabetic)">
+      <option name="closed" value="true" />
+      <created>1737576025978</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737576025978</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,6 +235,11 @@
           <url>file://$PROJECT_DIR$/playground_2.py</url>
           <line>36</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/snake/snake_game.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
