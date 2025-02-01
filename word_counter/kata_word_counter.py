@@ -1,7 +1,9 @@
 
+def remove_whitespaces(x):
+    return x.replace(" ", '').replace("\n",'')
+
 def count_words(sentence, delimiter):
-    # Creates a list split by delimiter and replaces spaces and \n with nothing
-    my_list = list(map(lambda x: x.replace(" ", '').replace("\n",''), sentence.split(delimiter))) #creates a list split by delimiter and replaces spaces and \n with nothing
+    my_list = list(map(lambda x: remove_whitespaces(x), sentence.split(delimiter)))
     # removes empty elements from the list
     my_list[:] = [item for item in my_list if item != '']
     return len(my_list[:])
