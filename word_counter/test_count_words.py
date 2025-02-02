@@ -2,7 +2,6 @@ import unittest
 
 
 from kata_word_counter import count_words
-from word_counter.kata_word_counter import count_words_alphabetic
 
 
 class TestCountWords(unittest.TestCase):

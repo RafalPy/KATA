@@ -1,49 +1,26 @@
+from itertools import count
+
 
 def remove_whitespaces(x):
     return x.replace(" ", '').replace("\n",'')
 
-def count_words(sentence, delimiter):
+def count_words(sentence, delimiter, count_only_alphabetic=False):
     my_list = list(map(lambda x: remove_whitespaces(x), sentence.split(delimiter)))
     # removes empty elements from the list
-    my_list[:] = [item for item in my_list if item != '']
-    return len(my_list[:])
-
-#function counts only alphabetic words but also those ending or starting with not an alphabetic character
-def count_words_alphabetic(sentence, delimiter, count_only_alphabetic=True):
-    my_list = sentence.split(delimiter)
-    new_list2 = my_list
-    indexes_to_remove = []
+    my_list = [item for item in my_list if item != '']
     if count_only_alphabetic:
-        for i in range(len(new_list2)):
-            for character in new_list2[i]:
-                if character == new_list2[i][0]:
+        indexes_to_remove = list()
+        for i in range(len(my_list)):
+            for character in my_list[i]:
+                if character == my_list[i][0]:
                     continue
-                if character == new_list2[i][-1]:
+                if character == my_list[i][-1]:
                     continue
                 if not character.isalpha():
                     indexes_to_remove.append(i)
-        decreaser = 0
-        for index in indexes_to_remove:
-            if decreaser != 0:
-                for index in indexes_to_remove:
-                    index -= 1
-            new_list2.pop(index)
-            decreaser += 1
+        for index in sorted(indexes_to_remove, reverse=True):
+            my_list.pop(index)
+    return len(my_list)
 
-    for word in my_list:
-        pass
-    counter_1 = 0
-    for i in range(len(my_list)):
-        counter_2 = 0
-        for character in my_list[i]:
-            if character.isspace():
-                counter_2 += 1
-            if len(my_list[i]) == counter_2 & counter_2 != 0:
-                counter_1 -= 1
-        if len(my_list[i]) != 0:
-            counter_1 += 1
-    return counter_1
-
-
-
+print(count_words("1test;te2st;;;;test1", ";", True)) #2
 

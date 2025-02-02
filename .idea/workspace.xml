@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="remove_whitespaces function created to replace part of lambda in count_words, increase readability and remove need for a comment">
+    <list default="true" id="a7da7555-6505-4ce5-bd79-47bd3abc2020" name="Changes" comment="tests added for counting only alphabetic words and only alphabetic words excluding edge numbers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/word_counter/kata_word_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_counter/kata_word_counter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/word_counter/test_count_words.py" beforeDir="false" afterPath="$PROJECT_DIR$/word_counter/test_count_words.py" afterDir="false" />
@@ -224,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738446939480</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="tests added for counting only alphabetic words and only alphabetic words excluding edge numbers">
+      <option name="closed" value="true" />
+      <created>1738498607025</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738498607025</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,7 +248,8 @@
     <MESSAGE value="function to count only alphabetic added (and those starting or ending with not alphabetic)" />
     <MESSAGE value="count_words function optimized (flat is better than nested)" />
     <MESSAGE value="remove_whitespaces function created to replace part of lambda in count_words, increase readability and remove need for a comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove_whitespaces function created to replace part of lambda in count_words, increase readability and remove need for a comment" />
+    <MESSAGE value="tests added for counting only alphabetic words and only alphabetic words excluding edge numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests added for counting only alphabetic words and only alphabetic words excluding edge numbers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
